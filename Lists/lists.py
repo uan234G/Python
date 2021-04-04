@@ -1,30 +1,34 @@
-myList = ["banana", "apple", "orange"]
-print(myList)
+mylist = ["banana", "apple", "orange"]
+print(mylist)
 
-myList2 = [5, "apple", "apple", True, 0.0023]  # lists can have duplicate items
+mylist2 = [5, "apple", "apple", True, 0.0023]  # lists can have duplicate items
 
-item1 = myList2[4]
+item1 = mylist2[4]
 # negative index ..[-1] = last item .. [-2]= second to last
 print(item1)
 
 # print length of any list
-print(len(myList))
-print(len(myList2))
+print(len(mylist))
+print(len(mylist2))
 
-for i in myList:
+for i in mylist:
     print(i)
 
-for i in myList2:
+for i in mylist2:
     print(i)
 
-if "apple" in myList2:
+if "apple" in mylist2:
     print("YES")
 else:
     print("NO")
 
-myList.append("lemon")
+mylist.append("lemon")
 # appends to end of list
-print(myList)
-myList.insert(0, "lemon")
+print(mylist)
+mylist.insert(0, "lemon")
 # adds to 0 index of list
-print(myList)
+print(mylist)
+
+# other methos .pop() removes last | .remove("specific item") | .clear() removes all | .reverse() reverse list |
+# .sort() sorts original list | .sorted() doesnt change orinal list
+# .copy() -copy link
