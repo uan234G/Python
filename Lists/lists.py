@@ -31,4 +31,4 @@ print(mylist)
 
 # other methos .pop() removes last | .remove("specific item") | .clear() removes all | .reverse() reverse list |
 # .sort() sorts original list | .sorted() doesnt change orinal list
-# .copy() -copy link
+# .copy() -copy list
